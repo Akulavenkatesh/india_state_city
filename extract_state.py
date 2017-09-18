@@ -10,4 +10,4 @@ with open('city.json') as json_data:
             index_value = map(itemgetter('name'), city).index('{}'.format(i))
             print city[index_value]['state']
         except ValueError:
-            print "nil"
+            print "NIL"
